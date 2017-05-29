@@ -40,3 +40,6 @@
 /Users/matthew/Desktop/DesktopServer/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/matthew/Desktop/DesktopServer/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Users/matthew/Desktop/DesktopServer/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/matthew/Desktop/DesktopServer/Temp/bin/Debug/UnityEditor.TestRunner.dll
+/Users/matthew/Desktop/DesktopServer/Temp/bin/Debug/UnityEngine.TestRunner.dll
+/Users/matthew/Desktop/DesktopServer/Temp/bin/Debug/UnityEditor.Purchasing.dll

@@ -1,4 +1,4 @@
-Base path: /Applications/Unity/Unity.app/Contents
-Cmd: getPlatforms
+Base path: /Applications/Unity/Unity5.6.app/Contents
+Cmd: initializeCompiler
 
 Quitting shader compiler process
