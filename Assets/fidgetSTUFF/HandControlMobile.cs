@@ -1,20 +1,4 @@
-﻿
-/*
- 
-    -----------------------
-    UDP-Receive (send to)
-    -----------------------
-    // [url]http://msdn.microsoft.com/de-de/library/bb979228.aspx#ID0E3BAC[/url]
-   
-   
-    // > receive
-    // 127.0.0.1 : 8051
-   
-    // send
-    // nc -u 127.0.0.1 8051
- 
-*/
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 using System;
@@ -25,10 +9,8 @@ using System.Threading;
 
 public class HandControlMobile : MonoBehaviour {
 
-	// receiving Thread
 	Thread receiveThread;
 
-	// udpclient object
 	UdpClient client;
 
 	private int port = 1999; 
@@ -49,9 +31,10 @@ public class HandControlMobile : MonoBehaviour {
 	private Quaternion rotation1, rotation2;
 
 
-	// start from unity3d
 	public void Start()
 	{
+		Application.targetFrameRate = 60;
+
 		receiveThread = new Thread(new ThreadStart(ReceiveData));
 		receiveThread.IsBackground = true;
 		receiveThread.Start();
@@ -166,7 +149,7 @@ public class HandControlMobile : MonoBehaviour {
 
 			string text = Encoding.UTF8.GetString(data);
 
-			// split the items
+			// split the items by comma
 			sArray = text.Split(',');
 
 			if (sArray[0] != "nothing"){

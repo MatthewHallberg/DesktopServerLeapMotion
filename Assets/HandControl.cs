@@ -11,7 +11,6 @@ public class HandControl : MonoBehaviour {
 	private static int localPort;
 
 	private string IP = "10.0.0.37"; //cell
-	//private string IP = "127.0.0.1"; //home
 
 	private int port = 1999;  
 
