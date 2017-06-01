@@ -1,8 +1,8 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/HandControl.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/fidgetSTUFF/HandControlMobile.cs">
     <Files>
-      <File FileName="Assets/HandControl.cs" Line="29" Column="38" />
+      <File FileName="Assets/fidgetSTUFF/HandControlMobile.cs" Line="79" Column="79" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

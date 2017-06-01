@@ -76,8 +76,8 @@ public class HandControlMobile : MonoBehaviour {
 					currentLeftHand = Instantiate (leftHandPrefab, this.transform);
 				}
 
-				currentLeftHand.transform.GetChild(1).transform.position = position1;
-				currentLeftHand.transform.GetChild(1).transform.rotation = rotation1;
+				currentLeftHand.transform.transform.localPosition = position1;
+				currentLeftHand.transform.transform.localRotation = rotation1;
 
 			} else if (sArray [0] == "r") {
 				rightHandExists = true;
@@ -85,8 +85,8 @@ public class HandControlMobile : MonoBehaviour {
 					currentRightHand = Instantiate (rightHandPrefab, this.transform);
 				}
 
-				currentRightHand.transform.GetChild(1).transform.position = position1;
-				currentRightHand.transform.GetChild(1).transform.rotation = rotation1;
+				currentRightHand.transform.transform.localPosition = position1;
+				currentRightHand.transform.transform.localRotation = rotation1;
 			}
 		}
 
@@ -107,8 +107,8 @@ public class HandControlMobile : MonoBehaviour {
 					currentLeftHand = Instantiate (leftHandPrefab, this.transform);
 				}
 
-				currentLeftHand.transform.GetChild(1).transform.position = position2;
-				currentLeftHand.transform.GetChild(1).transform.rotation = rotation2;
+				currentLeftHand.transform.transform.localPosition = position2;
+				currentLeftHand.transform.transform.localRotation = rotation2;
 
 			} else if (sArray [8] == "r") {
 				rightHandExists = true;
@@ -116,8 +116,8 @@ public class HandControlMobile : MonoBehaviour {
 					currentRightHand = Instantiate (rightHandPrefab, this.transform);
 				}
 
-				currentRightHand.transform.GetChild(1).transform.position = position2;
-				currentRightHand.transform.GetChild(1).transform.rotation = rotation2;
+				currentRightHand.transform.transform.localPosition = position2;
+				currentRightHand.transform.transform.localRotation = rotation2;
 			}
 		}
 
